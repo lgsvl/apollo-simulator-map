@@ -68999,7 +68999,7 @@ node {
 node {
   lane_id: "lane_1388"
   length: 162.294677734375
-  left_out {
+  right_out {
     start {
       s: 0
     }
@@ -69037,22 +69037,22 @@ node {
 }
 node {
   lane_id: "lane_1389"
-  length: 162.132293701172
+  length: 156.350311279297
   right_out {
     start {
       s: 0
     }
     end {
-      s: 162.132293701172
+      s: 156.350311279297
     }
   }
-  cost: 74.005888858105919
+  cost: 71.366681463177727
   central_curve {
     segment {
       line_segment {
         point {
-          x: 553509.368713379
-          y: 4182335.59262085
+          x: 553505.258911133
+          y: 4182339.65963745
         }
         point {
           x: 553449.861694336
@@ -69065,10 +69065,10 @@ node {
       }
       s: 0
       start_position {
-        x: 553509.368713379
-        y: 4182335.59262085
+        x: 553505.258911133
+        y: 4182339.65963745
       }
-      length: 162.132293701172
+      length: 156.350311279297
     }
   }
   is_virtual: false
@@ -93882,6 +93882,12 @@ edge {
   direction_type: FORWARD
 }
 edge {
+  from_lane_id: "lane_1388"
+  to_lane_id: "lane_1387"
+  cost: 8.5500488103252579
+  direction_type: RIGHT
+}
+edge {
   from_lane_id: "lane_1389"
   to_lane_id: "lane_1431"
   cost: 0
@@ -93890,7 +93896,7 @@ edge {
 edge {
   from_lane_id: "lane_1389"
   to_lane_id: "lane_1390"
-  cost: 8.5628970124660313
+  cost: 9.0422578134759632
   direction_type: RIGHT
 }
 edge {
